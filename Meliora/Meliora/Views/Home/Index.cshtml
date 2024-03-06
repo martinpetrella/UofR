@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    ViewBag.Title = "Counter Code Challenge";
+}
+
+<h3>Counter Code Challenge</h3>
+
+<table style="width: 100%">
+    <colgroup>
+        <col span="1" style="width: 5%;">
+        <col span="1" style="width: 95%;">
+    </colgroup>
+
+    <tr>
+        <td>
+            <div id="counter" style="font-size:30px" />
+        </td>
+        <td>
+            <div id="message" style="font-size:30px" />
+        </td>
+    </tr>
+</table>
+
+<script>
+    var count = 1;
+    var maxCount = 50;
+
+    var x = setInterval(function ()
+    {
+        document.getElementById("counter").innerHTML = count;
+
+        var message = "";
+
+        if((count % 3) == 0)
+        {
+            message = "Nursing ";
+        }
+
+        if ((count % 7) == 0)
+        { 
+            message = message + "Meliora"
+        }
+
+        document.getElementById("message").innerHTML = message;
+
+        count = count + 1;
+
+        if (count > maxCount)
+        {
+            clearInterval(x);
+        }
+    }, 1000);
+</script>
