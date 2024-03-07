@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SimpleCounter": {
+      "commandName": "Project",
+      "commandLineArgs": "2 5 30 2"
+    }
+  }
+}

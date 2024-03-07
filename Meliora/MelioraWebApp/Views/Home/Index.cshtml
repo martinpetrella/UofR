@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Counter Code Challenge";
+}
+
+@{
+    ViewBag.Title = "Counter Code Challenge";
+}
+
+<h3>Counter Code Challenge</h3>
+<span>A simple counter displaying a message when count is a multiple of 3 or 7.</span>
+
+<table style="width: 100%">
+    <colgroup>
+        <col span="1" style="width: 5%;">
+        <col span="1" style="width: 95%;">
+    </colgroup>
+
+    <tr>
+        <td>
+            <div id="counter" style="font-size:30px">---</div>
+        </td>
+        <td>
+            <div id="message" style="font-size:30px" />
+        </td>
+    </tr>
+</table>
+
+<script>
+    // The counter code is contained here rather than using output from SimpleCounter for illustrative purposesS
+
+    var count = 1;
+    var maxCount = 50;
+
+    var x = setInterval(function ()
+    {
+        document.getElementById("counter").innerHTML = count;
+
+        var message = "";
+
+        if((count % 3) == 0)
+        {
+            message = "Nursing ";
+        }
+
+        if ((count % 7) == 0)
+        { 
+            message = message + "Meliora"
+        }
+
+        document.getElementById("message").innerHTML = message;
+
+        count = count + 1;
+
+        if (count > maxCount)
+        {
+            clearInterval(x);
+            var button = document.getElementById("restart");
+            button.type = "button";
+        }
+    }, 1000);
+</script>
+
+<input type="hidden" id="restart" value="Restart" onClick="document.location.reload(true)">
