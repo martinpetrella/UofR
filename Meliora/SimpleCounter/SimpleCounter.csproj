@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy bin\Debug\net6.0\* ..\SimpleCounterUI\bin\Debug\net6.0-windows\" />
+  </Target>
+
 </Project>
