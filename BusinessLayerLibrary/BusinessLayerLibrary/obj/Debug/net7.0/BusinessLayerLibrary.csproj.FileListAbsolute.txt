@@ -1,0 +1,11 @@
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\bin\Debug\net7.0\BusinessLayerLibrary.deps.json
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\bin\Debug\net7.0\BusinessLayerLibrary.dll
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\bin\Debug\net7.0\BusinessLayerLibrary.pdb
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\obj\Debug\net7.0\BusinessLayerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\obj\Debug\net7.0\BusinessLayerLibrary.AssemblyInfoInputs.cache
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\obj\Debug\net7.0\BusinessLayerLibrary.AssemblyInfo.cs
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\obj\Debug\net7.0\BusinessLayerLibrary.csproj.CoreCompileInputs.cache
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\obj\Debug\net7.0\BusinessLayerLibrary.dll
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\obj\Debug\net7.0\refint\BusinessLayerLibrary.dll
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\obj\Debug\net7.0\BusinessLayerLibrary.pdb
+C:\Projects\UofR\BusinessLayerLibrary\BusinessLayerLibrary\obj\Debug\net7.0\ref\BusinessLayerLibrary.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "UnitTest/1.0.0": {
+        "dependencies": {
+          "BusinessLayerLibrary": "1.0.0"
+        },
+        "runtime": {
+          "UnitTest.dll": {}
+        }
+      },
+      "BusinessLayerLibrary/1.0.0": {
+        "runtime": {
+          "BusinessLayerLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnitTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessLayerLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
